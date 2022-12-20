@@ -5,6 +5,8 @@ layout: "default.njk"
 <article>
     <h1>{{ title }}</h1>
 
+    <img src="{{ image }}" alt="{{ imageAlt }}">
+
     <p>Date: {{ date | postDate }}</p>
 
     {{ content | safe }}
