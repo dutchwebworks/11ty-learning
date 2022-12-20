@@ -3,13 +3,13 @@ backend:
   branch: main
 media_folder: "_site/assets/media"
 public_folder: "/assets/media"
-collection:
+collections:
   - name: "blog"
     label: "Blog"
     folder: "src/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fieldds: 
+    fields: 
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
