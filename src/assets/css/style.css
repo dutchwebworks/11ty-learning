@@ -1,3 +1,94 @@
+/* Base
+----------------------------------------- */
+
 body {
     font-family: sans-serif;
+}
+
+/* Header
+----------------------------------------- */
+
+header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Content
+----------------------------------------- */
+
+.container {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 20px 0 20px 0;
+    padding: 0;
+    color: deepskyblue;
+}
+
+h2 {
+    color: hotpink;
+}
+
+p {
+    color: #333;
+}
+
+main {
+    color: #333;
+}
+
+main a {
+    color: deepskyblue;
+}
+
+.header__title {
+    font-size: 2.625rem;
+    color: hotpink;
+}
+
+/* Menu
+----------------------------------------- */
+
+menu {
+    display: flex;
+    margin: 10 0 0 0;
+    padding: 0;
+}
+
+menu li {
+    margin-right: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+menu a {
+    color: deepskyblue;
+}
+
+/* Footer
+----------------------------------------- */
+
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.875rem;
+}
+
+footer a {
+    color: #333;
+}
+
+footer a:hover {
+    color: hotpink;
 }
