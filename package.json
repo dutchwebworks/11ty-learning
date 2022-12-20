@@ -1,0 +1,24 @@
+{
+  "name": "11ty-learning",
+  "version": "0.1.0",
+  "description": "Learning about 11ty static-site-generator with a Netlify CMS for a demo blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dutchwebworks/11ty-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dutchwebworks/11ty-learning/issues"
+  },
+  "homepage": "https://github.com/dutchwebworks/11ty-learning#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
