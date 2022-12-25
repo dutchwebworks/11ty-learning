@@ -17,3 +17,14 @@ Learning about Eleventy static-site-generator. With a Netlify deployment and CMS
 ## Production build
 
     npm run build
+
+## NetlifyCMS
+
+Go to the admin panel and login with (an invited) Github account
+
+    https://11ty-learning.dutchwebworks.nl/admin/
+
+
+### Note: 
+
+`/admin#/` doesn't work. Use `/admin/#`
