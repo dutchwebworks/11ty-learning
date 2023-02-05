@@ -6,6 +6,10 @@ Learning about Eleventy static-site-generator. With a Netlify deployment and CMS
 
 [Kevin Powell: "Turn static HTML/CSS into a blog with CMS using the JAMStack"](https://www.youtube.com/watch?v=4wD00RT6d-g)
 
+## Install correct version of NodeJS using NVM
+
+    nvm install
+
 ## Initial install
 
     npm install
