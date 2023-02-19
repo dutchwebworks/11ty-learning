@@ -1,6 +1,6 @@
 # 11ty learning
 
-*By Dennis Burger, December 2022*
+*By Dennis Burger, Januari 2023*
 
 Learning about Eleventy static-site-generator. With a Netlify deployment and CMS for blog articles. According to this tutorial.
 
