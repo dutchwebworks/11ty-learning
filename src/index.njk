@@ -3,10 +3,4 @@ title: 11ty-learning
 layout: "default.njk"
 ---
 
-<h1>Blog posts</h1>
-
-<ul>
-    {%- for post in collections.post | reverse -%}
-        <li><a href="{{ post.url }}">{{ post.data.title }}</a> ({{ post.date | postDate }})</li>
-    {%- endfor-%}
-</ul>
+<h1>Welcome to my learning site</h1>
